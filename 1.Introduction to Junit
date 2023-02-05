@@ -18,3 +18,42 @@ If we do the testing by main method and we use System.out.println() everyWhere ,
 classes then it is not possible to do it manually. So for this case we need some API or some tool to solve this issue and JUNIT can do that.
 
 
+Code:
+MAIN CODE:
+=================================================
+public class MathUtil
+{
+  public int sumOf(int x, int y)
+  {
+    return x+y;
+  }
+  
+   public int mulOf(int x, int y)
+  {
+    return x*y;
+  }
+}
+
+TEST CODE :
+==================================================== 
+
+public clas MathUtilTest
+{
+private  MathUtil mUtil = new MathUtil();
+  
+  @Test
+  public void Test ()
+    {
+     int sum=mUtil.sumOf(7,3);
+     Assert.assertEquals(10,sum)
+    }
+    
+    @Test
+  public void Test ()
+    {
+     int sum=mUtil.mulOf(7,3);
+     Assert.assertEquals(21,sum)
+    }
+}
+
+
