@@ -1,1 +1,20 @@
+1. What is unit testing?
+we have to test any smallest component of any appication such as individual methods of each class or something else to make the code bug free.
+
+2.What are the different kinds of testing required to release the application for production?
+
+i) Unit testing-- testing the smallest  component of the application such as individual methods of each class.
+
+ii)Integration testing - Testing for the integrated components  of the application  or integrated modules of the application to ensure that modules are working as expected
+after integrating.
+
+iii)System testing or End to end testing - testing for complete and fully integrated application from the start journy to end Journey.
+
+iv)Acceptance testing - Testing to check whether the application  is able to meet the user's expctations and whether user is accepting the changes or not. 
+
+
+3. Why should we use Junit?
+If we do the testing by main method and we use System.out.println() everyWhere ,we have to observe the console everywhere and that is not a good approach. If we have 100 
+classes then it is not possible to do it manually. So for this case we need some API or some tool to solve this issue and JUNIT can do that.
+
 
